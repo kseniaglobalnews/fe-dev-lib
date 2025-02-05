@@ -14,7 +14,7 @@ var _gulpProgeny2 = _interopRequireDefault(_gulpProgeny);
 
 var _config = require('../utils/config');
 
-var _gulpSass = require('gulp-sass');
+var _gulpSass = require('gulp-sass')(require('sass'));
 
 var _gulpSass2 = _interopRequireDefault(_gulpSass);
 
